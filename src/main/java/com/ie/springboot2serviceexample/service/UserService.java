@@ -37,6 +37,6 @@ public class UserService {
   }
 
   public void delete(String name) {
-    userRepository.deleteById(name);
+    userRepository.deleteById(namegit);
   }
 }
